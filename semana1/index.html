@@ -5,16 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portifólio</title>
-        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="./stylesheet/index.css">
     </head>
     <body>
         <header>
-            <div>
-                <h1>José Pereia Macedo</h1>
-                <h2>ArseniumGX - Dev Back-end</h2>
-            </div>
-            <nav>
-                <img src="" alt="José foto">
+            <img src="./img/foto-perfil.png" alt="José foto de rosto">
+            <nav class="container">
                 <div>
                     <ul>
                         <li><a href="#sobre">Sobre</a></li>
@@ -26,7 +22,7 @@
             </nav>
         </header>
 
-        <section id="sobre">
+        <section id="sobre" class="container">
             <div>
                 <article>
                     <p>
@@ -43,7 +39,7 @@
             </div>
         </section>
 
-        <section id="projetos">
+        <section id="projetos" class="container">
             <h2>Meus projetos</h2>
             <table>
                 <thead>
@@ -68,10 +64,10 @@
         </section>
 
         <blockquote ></blockquote>
-        <section id="habilidades"></section>
+        <section id="habilidades" class="container"></section>
         
 
-        <section id="contato">
+        <section id="contato" class="container">
             <div>
                 <a href="https://www.linkedin.com/in/arseniumgx" target="blank" title="Linkedin"><img src="" alt="linkedin"></a>
                 <a href="https://www.github.com/ArseniumGX" target="blank" title="github"><img src="" alt="github"></a>
@@ -80,8 +76,10 @@
         </section>
 
         <footer>
-            <p>Criado por José Pereira Macedo (ArseniumGX)</p>
-            <p>Todos os direitos reservador &copy; 2021</p>
+            <div class="container">
+                <p>Criado por José Pereira Macedo (ArseniumGX)</p>
+                <p>Todos os direitos reservador &copy; 2021</p>
+            </div>
         </footer>
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     </body>
