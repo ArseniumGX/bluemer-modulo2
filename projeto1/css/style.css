@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Fontastique;
+    src: url(../font/fontastique.ttf);
+}
+
+@font-face {
+    font-family: Nesans;
+    src: url(../font/Nesans\ Semi\ Bold.ttf);
+}
+
+body{
+    background-color: #0D0D0D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+main{
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+    border-radius: 8px;
+    width: 28rem;
+    height: auto;
+    padding: 12px
+}
+
+main header{
+    text-align: center;
+    font-family: Fontastique;
+    margin-bottom: 30px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section div{
+    height: 18rem;
+    margin-bottom: 30px;
+}
+
+main section div img{
+    height: 100%;
+}
+
+main section article{
+    margin-bottom: 30px;
+}
+
+main section article p{
+    text-align: center;
+    font-family: Nesans;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+main section button{
+    background-color: #c0bfd9;
+    font-family: Nesans;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #0d0d0d;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+main section button:hover{
+    background-color: #C98FD9;
+    box-shadow: 0 0 .3rem #A6A6A6;
+    color: #F2F2F2;
+}
