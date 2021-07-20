@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Página The Question is What is The Question?</h1>
+        </header>
+        
+        
+        <h2>Escolha uma opção</h2>
+        
+        <main class="container">
+            <div class="btn1">
+                <button>Churrasco</button>
+            </div>
+            <div class="btn2">
+                <button>Pão</button>
+            </div>
+            <div class="btn3">
+                <button>Pizza</button>
+            </div>
+        </main>
+
+        <form action="index.html" method="GET">
+            <div class="name">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="addr">
+                <label for="addr">Endereço</label>
+                <input type="text" id="addr" name="endereco">
+            </div>
+            <div class="pagamento">
+                <h3>Forma de Pagamento</h3>
+                <div class="dinheiro">
+                    <label for="dinheiro">Dinheiro</label>
+                    <input type="radio" id="dinheiro" value="dinheiro" name="pagamento">
+                </div>
+                <div class="card">
+                    <label for="card">Cartão</label>
+                    <input type="radio" id="card" value="cartão" name="pagamento">
+                </div>
+            </div>
+            <button disabled>Pedir!</button>
+        </form>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>

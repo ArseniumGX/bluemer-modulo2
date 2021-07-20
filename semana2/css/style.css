@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #211a1d;
+    color: #f8f0fb;
+}
+
+header h1{
+    text-align: center
+}
+
+h2{
+    text-align: center;
+}
+
+main.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vw;
+}
+
+main.container div button{
+    height: 3rem;
+    width: 8rem;
+    color: #f8f0fb;
+    background-color: #8075ff;
+    text-shadow: 0 0 .3rem #211a1d;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+main.container div button:hover{
+    background-color: #6320ee;
+    box-shadow: 0 0 .3rem #211a1d;
+}
+
+form{
+    margin: 0 auto;
+    background-color: #403d39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 39rem;
+    height: 25vw;
+    border-radius: 8px;
+}
+
+form div.name input{
+    width: 25rem
+}
+
+form div.addr input{
+    width: 30rem
+}
+
+form div.pagamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+form button{
+    height: 3rem;
+    width: 8rem;
+    color: #f8f0fb;
+    background-color: #8075ff;
+    text-shadow: 0 0 .3rem #211a1d;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+form button:hover{
+    background-color: #6320ee;
+    box-shadow: 0 0 .3rem #211a1d;
+}
