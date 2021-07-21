@@ -1,0 +1,15 @@
+
+
+div.modal{
+    position: absolute;
+    height: 38rem;
+    width: 32rem;
+    border-radius: 8px;
+    transition: .3 ease;
+    opacity: 1;
+}
+
+div.modal iframe{
+    height: 100%;
+    width: 100%;
+}
