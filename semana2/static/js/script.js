@@ -1,4 +1,4 @@
-const element = element => document.querySelector(element)
+const cmd = element => document.querySelector(element)
 const cmdAll = element => document.querySelectorAll(element)
 
 cmdAll('div.area ul li').forEach( item => item.addEventListener('click', () => {
@@ -7,5 +7,3 @@ cmdAll('div.area ul li').forEach( item => item.addEventListener('click', () => {
     else
         item.classList.add('risq')
 }))
-
-document.querySelectorAll('div').setAt
