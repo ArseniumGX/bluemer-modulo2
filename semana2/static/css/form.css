@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #252422;
+    color: #ccc5b9;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 40vw;
+    height: 40rem;
+    background-color: #ccc5b9;
+    color: #252422;
+    border-radius: 8px;
+}
+
+main form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+main form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: .3rem;
+}
+
+main form div input{
+    width: 28rem;
+    padding: 4px;
+    background-color: unset;
+    border: none;
+    border-bottom: .1rem solid #25242243;
+    transition: .3s ease;
+}
+
+main form div input:hover{
+    scale: 1.1;
+}
+
+main form div input:focus{
+    scale: 1.1;
+    border-bottom: .1rem solid #eb5e28;
+}
+
+main form div textarea{
+    width: 28rem;
+    height: 18rem;
+    border-radius: 8px;
+    border: none;
+    margin: 4px 4px;
+    padding: 4px;
+    transition: .3s ease;
+    border: .1rem solid #fff;
+    resize: unset;
+}
+
+main form div textarea:hover{
+    border: .1rem solid #eb5e28;
+}
+
+main form button{
+    background-color: #eb5e28;
+    color: #fffcf2;
+    border: none;
+    border-radius: 8px;
+    width: 4rem;
+    height: 2rem;
+    transition: .3s ease;
+}
+
+main form button:hover{
+    background-color: #6320ee;
+    box-shadow: 0 0 1rem #8075ff;
+}
