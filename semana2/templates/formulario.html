@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="../static/css/form.css">
+    </head>
+    <body>
+        <main>
+            <h1>Formulário</h1>
+            <form action="/send" method="POST">
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome...">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@domain.com">
+                </div>
+                <div>
+                    <label for="tel">Telefone</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Somente números...">
+                </div>
+                <div>
+                    <label for="message">Sua mensagem</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </main>
+    </body>
+</html>
