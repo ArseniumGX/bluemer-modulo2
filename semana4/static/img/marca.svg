@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="760"
+   height="230"
+   viewBox="0 0 201.08333 60.854171"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="marca.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="83.461831"
+     inkscape:cy="148.262"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-236.14582)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.10131454px;line-height:1.25;font-family:Fontastique;-inkscape-font-specification:'Fontastique, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3771c8;fill-opacity:1;stroke:none;stroke-width:0.57972467;"
+       x="27.301411"
+       y="273.24472"
+       id="text12"
+       transform="scale(0.9960295,1.0039863)"><tspan
+         sodipodi:role="line"
+         x="27.301411"
+         y="273.24472"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.10131454px;font-family:Fontastique;-inkscape-font-specification:'Fontastique, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#3771c8;stroke-width:0.57972467;"
+         id="tspan14">ArseniumGX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:33.1439743px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.82859939;"
+       x="2.97171"
+       y="215.13889"
+       id="text20"
+       transform="scale(0.77118281,1.2967094)"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         x="2.97171"
+         y="215.13889"
+         style="stroke-width:0.82859939;fill:#800080;">&lt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:33.1439743px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.82859939;"
+       x="-257.66687"
+       y="215.13889"
+       id="text20-8"
+       transform="scale(-0.77118281,1.2967094)"><tspan
+         sodipodi:role="line"
+         id="tspan18-3"
+         x="-257.66687"
+         y="215.13889"
+         style="fill:#800080;stroke-width:0.82859939;">&lt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:34.46929932px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.86173236;"
+       x="165.16058"
+       y="277.772"
+       id="text64"
+       transform="scale(1.0089728,0.991107)"><tspan
+         sodipodi:role="line"
+         id="tspan62"
+         x="165.16058"
+         y="277.772"
+         style="fill:#ffff00;stroke-width:0.86173236;">/</tspan></text>
+  </g>
+</svg>
