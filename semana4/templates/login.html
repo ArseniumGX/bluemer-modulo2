@@ -12,6 +12,7 @@
         <h2>ArseniumGX | Portifólio</h2>
         <h3>Administração</h3>
     </header>
+    <hr>
     <main>
         <form action="" method="POST" >
             <div>
@@ -23,8 +24,12 @@
                 <input type="password" name="password" id="password">
             </div>
             <button>Entrar</button>
+            {% if get_flashed_messages() %}
+            <p>{{ get_flashed_messages()[0] }}</p>
+            {% endif %}
         </form>
     </main>
+    <hr>
     <footer>
         <img src="../static/img/marca.svg" alt="ArseniumGX marca">
         <p>Created by Jose P. Macedo &copy; 2021</p>
