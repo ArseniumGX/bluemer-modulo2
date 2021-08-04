@@ -9,6 +9,10 @@
     font-family: Custom;
 }
 
+html{
+    background-color: #252422;
+}
+
 header{
     background-color: #252422;
     color: #fffcf2;
@@ -20,7 +24,7 @@ header{
 }
 
 main{
-    height: 65vh;
+    height: 63vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,10 +36,9 @@ main h3{
 }
 
 main form{
-    background-color: #ccc5b9;
-    color: #252422;
     padding: 2rem;
     border: .1rem solid #ccc5b9;
+    background-color: #fffcf2;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -52,6 +55,12 @@ main form div input{
     height: 2rem;
 }
 
+main form p{
+    align-self: center;
+    text-align: center;
+    color: #d9042b;
+}
+
 main form button{
     background-color: #eb5e28;
     color: #fffcf2;
@@ -60,9 +69,10 @@ main form button{
     border: none;
     border-radius: 8px;
     transition: .3s ease;
+    align-self: center;
 }
-
 main form button:hover{
+
     background-color: #6320ee;
     color: #fffcf2;
     box-shadow: 0 0 .2rem #8075ff;
@@ -84,4 +94,12 @@ footer img{
 
 footer p{
     letter-spacing: .2rem;
+}
+
+hr{
+    border-color: #6320ee;
+    width: 50vw;
+    align-self: center;
+    margin: 0 auto;
+    border-radius: 12rem;
 }
