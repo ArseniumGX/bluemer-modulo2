@@ -3,6 +3,12 @@
     src: url("../font/fontastique.ttf");
 }
 
+@font-face {
+    font-family: Custom2;
+    src: url("../font/PublicSans-VariableFont_wght.ttf");
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -94,11 +100,13 @@ footer img{
 
 footer p{
     letter-spacing: .2rem;
+    font-family: Custom2;
 }
 
 hr{
     border-color: #6320ee;
-    width: 50vw;
+    box-shadow: 0 0 .5rem #8075ff;
+    width: 70vw;
     align-self: center;
     margin: 0 auto;
     border-radius: 12rem;
